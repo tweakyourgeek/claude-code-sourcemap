@@ -122,9 +122,7 @@ function main() {
   const args = parseArgs(process.argv);
 
   if (!args.dir) {
-    console.error("Error: Please provide a path to your session markdowns directory.");
-    console.error("Usage: node analyze-sessions.js <path-to-sessions-dir>");
-    process.exit(1);
+    args.dir = ".";
   }
 
   const dirPath = path.resolve(args.dir);
