@@ -37,10 +37,6 @@ We're launching Claude Code as a beta product in research preview to learn direc
 
 This is an early version of the product experience, and it's likely to evolve as we learn more about developer preferences. Claude Code is an early look into what's possible with agentic coding, and we know there are areas to improve. We plan to enhance tool execution reliability, support for long-running commands, terminal rendering, and Claude's self-knowledge of its capabilities -- as well as many other product experiences -- over the coming weeks.
 
-### Importing Conversations into Obsidian
-
-You can import your Claude conversation history into [Obsidian](https://obsidian.md) using the community [Nexus AI Chat Importer](https://github.com/Superkikim/nexus-ai-chat-importer) plugin. This lets you build a searchable knowledge graph from your AI interactions. See the [full guide](docs/nexus-ai-chat-importer.md) for setup instructions.
-
 ### Reporting Bugs
 
 We welcome feedback during this beta period. Use the `/bug` command to report issues directly within Claude Code, or file a [GitHub issue](https://github.com/anthropics/claude-code/issues).
